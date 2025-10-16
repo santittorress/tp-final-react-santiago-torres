@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/list" element={<PokemonList />} />
         <Route path="/pokemon/:id" element={<PokemonDetail />} />
-        <Route path="/about" element={<About />} /> {/* ✅ AGREGADA */}
+        <Route path="/about" element={<About />} /> 
       </Routes>
 
       <Footer />
